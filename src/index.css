@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind dark mode configuration */
+html[data-theme='light'] .dark-mode {
+    background-color: #e0f7fa; /* Light background */
+}
+
+html[data-theme='dark'] .dark-mode {
+    background-color: #1a202c; /* Dark background */
+}
+
+/* Additional styles */
+.bg-blue-50 {
+    background-color: #ebf8ff;
+}
+
+.bg-gray-900 {
+    background-color: #1a202c;
+}
